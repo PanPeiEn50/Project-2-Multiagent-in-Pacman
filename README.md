@@ -2,11 +2,14 @@
 In this project, you will design agents for the classic version of Pacman, including ghosts. Along the way, you will implement both minimax and expectimax search and try your hand at evaluation function design.
 The code base has not changed much from the previous project, but please start with a fresh installation, rather than intermingling files from project 1.
 As in project 1, this project includes an autograder for you to grade your answers on your machine. This can be run on all questions with the command:
-`python autograder.py`
+`python autograder.py`.
+
 It can be run for one particular question, such as q2, by:
-`python autograder.py -q q2`
+`python autograder.py -q q2`.
+
 It can be run for one particular test by commands of the form:
-`python autograder.py -t test_cases/q2/0-small-tree`
+`python autograder.py -t test_cases/q2/0-small-tree`.
+
 By default, the autograder displays graphics with the `-t` option, but doesn’t with the `-q` option. You can force graphics by using the `-- graphics` flag, or force no graphics by using the `--no-graphics` flag.
 See the autograder tutorial in Project 0 for more information about using the autograder.
 The code for this project contains the following files, available as a zip archive on Canvas.
